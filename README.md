@@ -1,12 +1,22 @@
 # Badminton Doctor
 
 An LLM agent that recommends badminton rackets and shoes from a curated catalog and
-answers equipment questions from a small knowledge base. The same tools are available
-through a web chat, a REST API and an MCP server.
+answers equipment questions from a small knowledge base.
+
+*Preview of Badminton Doctor
+
+![General about Badminton Doctor](docs/Badminton%20Doctor%20-%20your%20best%20friend%20for%20every%20aspect%20of%20badminton%20-%20Google%20Chrome%202026-11-18%2023-07-01.mp4)
+
+*Preview of Ask-Expert 
+![Question will be sent to discord server of Badminton Doctor](docs/Ask-expert.mp4)
 
 ![Chatbot recommending a racket](docs/badminton-doctor-chatbot.gif)
 
+*Chatbot recommends a racket base on level and play style of player
+
 ![Chatbot asking for concrete information before advising](docs/badminton-doctor-chatbot-2.gif)
+
+*Chatbot asks for concrete information before advising
 
 ## Highlights
 
@@ -187,12 +197,12 @@ Users can send a question to a human expert from the web page. The question goes
 
 ```
 Browser ("Send to an expert" button)
-  -> POST /ask-expert (FastAPI)
-  -> n8n webhook /webhook/ask-expert
-  -> HTTP Request -> Discord #expert-inbox
+  -> POST /ask-expert (FastAPI) (Frontend sends POST Request to FastAPI Backend)
+  -> n8n webhook /webhook/ask-expert (Backend sends POST Request to n8n Webhook Node)
+  -> HTTP Request -> Discord #expert-inbox (From n8n Webhook Node comes to HTTP-Request Node and This Node will POST to Discord Webhook URL, which is Discord #expert-inbox)
 ```
 
-The expert answers publicly in `#hỏi-đáp` (the name of the public Q&A channel on the project's Discord server, "questions and answers" in Vietnamese) and tags the asker (this step is manual).
+The expert answers publicly in `#expert-inbox` (the name of the public Q&A channel on the project's Discord server, "questions and answers" in Vietnamese) and tags the asker (this step is manual).
 
 ### Run n8n
 
