@@ -3,12 +3,13 @@
 An LLM agent that recommends badminton rackets and shoes from a curated catalog and
 answers equipment questions from a small knowledge base.
 
-*Preview of Badminton Doctor
+### Preview of Badminton Doctor
 
-![General about Badminton Doctor](https://youtu.be/dQtJtMbBRU0)
+[![General about Badminton Doctor](https://img.youtube.com/vi/dQtJtMbBRU0/hqdefault.jpg)](https://youtu.be/dQtJtMbBRU0)
 
-*Preview of Ask-Expert 
-![Question will be sent to discord server of Badminton Doctor](https://youtu.be/QQiiuX2gvJg)
+### Preview of Ask-Expert
+
+[![Question will be sent to Discord server of Badminton Doctor](https://img.youtube.com/vi/QQiiuX2gvJg/hqdefault.jpg)](https://youtu.be/QQiiuX2gvJg)
 
 ![Chatbot recommending a racket](docs/badminton-doctor-chatbot.gif)
 
