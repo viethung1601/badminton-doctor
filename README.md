@@ -5,10 +5,10 @@ answers equipment questions from a small knowledge base.
 
 *Preview of Badminton Doctor
 
-![General about Badminton Doctor](docs/Badminton%20Doctor%20-%20your%20best%20friend%20for%20every%20aspect%20of%20badminton%20-%20Google%20Chrome%202026-11-18%2023-07-01.mp4)
+![General about Badminton Doctor](https://youtu.be/dQtJtMbBRU0)
 
 *Preview of Ask-Expert 
-![Question will be sent to discord server of Badminton Doctor](docs/Ask-expert.mp4)
+![Question will be sent to discord server of Badminton Doctor](https://youtu.be/QQiiuX2gvJg)
 
 ![Chatbot recommending a racket](docs/badminton-doctor-chatbot.gif)
 
